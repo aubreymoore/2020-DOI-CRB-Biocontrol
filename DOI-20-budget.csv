@@ -1,0 +1,13 @@
+cost_item, cost_type, qty_or_fte, unit_cost, units, total 
+Lab tech 1,labor,1,60360, $/per year (inc. benefits),60360.00
+Survey tech 1,labor,1,60360, $/per year (inc. benefits),60360.00
+Entomologist,labor,0.05,130000, $/per year (inc. benefits),6500.00
+Insect pathologist,labor,1,83200, $/per year (inc. benefits),83200.00
+Panel traps,materials,150,40, $/each,6000.00
+Pheromone lures,materials,780,3.75, $/each,2925.00
+Vehicle maintenance,materials,1,2000, $/per year,2000.00
+Vehicle fuel,materials,1,2000, $/per year,2000.00
+Lab and insect rearing supplies,materials,1,3000, $/per year,3000.00
+,,,,SUBTOTAL,226345.00
+Administration fee,other,,,,22634.50
+,,,,TOTAL,248979.50

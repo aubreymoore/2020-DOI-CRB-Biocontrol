@@ -1,0 +1,1279 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass scrartcl
+\begin_preamble
+\usepackage{mciteplus}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue,citecolor=blue,urlcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Grant Proposal
+\end_layout
+
+\begin_layout Title
+Biological Control of Coconut Rhinoceros Beetle Biotype G in Micronesia
+ 
+\end_layout
+
+\begin_layout Author
+Aubrey Moore, University of Guam
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Project Description
+\end_layout
+
+\begin_layout Standard
+This grant proposal is a request for funds to hire a post doctoral entomologist
+ for 2 years to work on an existing project to implement effective biological
+ control for the coconut rhinoceros beetle (CRB) which is rapidly killing
+ palm trees in Guam and Palau.
+ Without significant population suppression of CRB in Guam and Palau, it
+ is likely that Guam and Palau will lose most of their palms and it is just
+ a matter of time before other Micronesian Islands are invaded by CRB.
+ 
+\end_layout
+
+\begin_layout Subsection
+Background
+\end_layout
+
+\begin_layout Paragraph
+The coconut rhinoceros beetle, 
+\emph on
+Oryctes rhinoceros
+\emph default
+, is a major pest of coconut palm, oil palm and other palm species.
+\end_layout
+
+\begin_layout Standard
+Palms are damaged when adult beetles bore into the crowns of palms to feed
+ on sap.
+ Tree mortality occurs when beetles destroy the growing tip (meristem).
+ Immature beetles (grubs) do no damage.
+ They feed on dead, decaying vegetation in breeding sites.
+ Preferred breeding sites are dead, standing coconut stems, and piles of
+ decaying vegetation such those left behind by typhoons or after replanting
+ of oil palm plantations.
+ If a CRB population is not suppressed, it is possible for a positive feed-back
+ cycle to initiate whereby adult beetles kill massive numbers of palms,
+ thereby generating more food for even more grubs which turn into adults
+ which kill even more palms.
+ An outbreak following this scenario occurred in the Palau Islands during
+ the late 1940s resulting in about 50% coconut palms being killed by CRB
+ throughout the archipelago and 100% mortality on some of the smaller islands
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "gressitt1953thecoconut"
+
+\end_inset
+
+.
+ A similar outbreak is currently impacting Guam.
+\end_layout
+
+\begin_layout Paragraph
+Following 40 years of no geographical range expansion, CRB is again 
+\begin_inset Quotes eld
+\end_inset
+
+on the move
+\begin_inset Quotes erd
+\end_inset
+
+ in the Pacific.
+\end_layout
+
+\begin_layout Standard
+CRB was recently detected for the first time at several Pacific Island locations
+ including Saipan (2006), Guam (2007), Port Moresby, Papua New Guinea (2010),
+ Oahu, Hawaii (2013), and Honiara, Solomon Islands (2015).
+ Eradication of CRB has been attempted many times but is extremely difficult,
+ having been achieved only once, on Niuatoputapu (formerly known as Keppel
+ Island), a tiny island belonging to Tonga, with an area of only 16 km
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+ (3% the area of Guam)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "catley1969thecoconut"
+
+\end_inset
+
+.
+ Failing eradication, the usual response to CRB infestations during the
+ second half of the 20th century was introduction of 
+\emph on
+Oryctes
+\emph default
+ nudivirus (OrNV), the biological control agent of choice for this pest
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jackson2009theuse"
+
+\end_inset
+
+ .
+ OrNV attacks only CRB, typically reducing damage by up to 90% with population
+ suppression lasting indefinitely 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bedford2013biology"
+
+\end_inset
+
+.
+ OrNV is auto-disseminated, meaning the pathogen is carried between feeding
+ and breeding sites by CRB adults.
+ Like many biocontrol agents, OrNV is density-dependent, working best at
+ high population densities.
+ After release, OrNV suppresses CRB populations to levels that result in
+ only minor damage.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+Current invasions of Pacific Islands by CRB involve a new invasive biotype
+ that has escaped from biological control by OrNV.
+ 
+\end_layout
+
+\begin_layout Standard
+Discovery of OrNV nudivirus in the 1960s enabled the successful management
+ of CRB populations in Pacific Island Countries 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "huger2005theoryctes"
+
+\end_inset
+
+.
+ Augmentative release of OrNV continues to be an important mechanism for
+ CRB management in both coconut and oil palm growing regions.
+ For ~40 years after adoption of this biocontrol strategy, no new outbreaks
+ of CRB were reported from uninfested palm growing islands in the Pacific
+ ensuring continuity of palm based village economies.
+ 
+\end_layout
+
+\begin_layout Standard
+However, the situation has recently changed.
+ For the first time in 40 years, CRB invasion into completely new areas
+ has been reported.
+ Additionally, Pacific areas with established CRB populations (e.g.
+ Palau) have reported increased severity and frequency of CRB damage.
+ Common to all these areas is the high incidence of severe palm damage by
+ beetles not seen since the introduction of OrNV.
+ 
+\end_layout
+
+\begin_layout Standard
+Initial attempts to introduce OrNV into the Guam CRB population were unexpectedl
+y unsuccessful, raising the possibility that the population that invaded
+ Guam is tolerant or resistant to the commonly applied OrNV isolates.
+ Subsequent DNA analysis showed that the Guam population is genetically
+ different from other populations in the region.
+ On the basis of distinct genetics and tolerance to currently available
+ OrNV isolates, the Guam population has been designated a new biotype, CRB-Guam
+ (CRB-G) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "marshall2017anew,marshall2015anew"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Recent analysis of DNA from an ongoing survey has detected CRB-Guam in Guam,
+ Hawaii, Palau, Port Moresby (PNG) and Honiara (Solomon Islands).
+ Thus, current invasions in the Pacific involve the CRB-Guam biotype and
+ it is expected that these populations are tolerant to all available isolates
+ of OrNV.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+Uncontrolled infestations of CRB-G may kill most palms within a few years
+ and risk of accidental spread to other islands is high.
+\end_layout
+
+\begin_layout Standard
+A worse case scenario may be triggered by a massive outbreak of adult CRB
+ emerging from abundant breeding sites made by large amounts of decaying
+ vegetation left in the wake of a typhoon (such as Typhoon Dolphin which
+ visited Guam in May, 2015).
+ Very high feeding activity will kill mature coconut palms, leaving standing
+ dead coconut trunks that are ideal breeding sites for subsequent generations
+ of beetles.
+ 
+\end_layout
+
+\begin_layout Standard
+During a CRB outbreak, there will be an increased risk of further spread
+ to uninfested islands throughout the Pacific.
+ Palms are important on Pacific Islands for various reasons: as a cash crop
+ for nuts, oil and lumber, as an ornamental tree appreciated by residents
+ and tourists.
+ On some of the smaller, more traditional islands the coconut palm is referred
+ to as 
+\emph on
+the tree of life
+\emph default
+.
+ Here, this species is an essential natural resource providing income, housing,
+ food, oil, soap, clothing, mats, baskets, and other containers.
+ The smaller, poorer Pacific islands will suffer the most if the spread
+ of CRB-Guam cannot be controlled.
+ If CRB-G infests islands and atolls where the coconut palm is the 
+\emph on
+tree of life
+\emph default
+, islanders may have to migrate to larger population centers.
+\end_layout
+
+\begin_layout Paragraph*
+Recommended response to CRB-G outbreaks.
+\end_layout
+
+\begin_layout Standard
+Entomologists working on the CRB-G problem agree that the most feasible
+ way to prevent massive palm mortality during outbreaks is establishment
+ of biological control using an isolate of OrNV which is highly pathogenic
+ to CRB-G 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jackson2015needfor,vaqalo2015anemerging,marshall2016whitepaper"
+
+\end_inset
+
+.
+ In a special meeting on CRB-G at the XXVth International Congress of Entomology
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "2016newcoconut"
+
+\end_inset
+
+, the following strategic plan was suggested:
+\end_layout
+
+\begin_layout Standard
+A coordinated regional project should be organized and adequately staffed
+ and funded to accomplish 3 objectives:
+\end_layout
+
+\begin_layout Enumerate
+Survey CRB populations throughout the Asian/Pacific region to delimit the
+ geographical distribution of CRB-G and identify its center of origin.
+\end_layout
+
+\begin_layout Enumerate
+Survey CRB-G populations from the cent re of origin to find isolate(s) of
+ OrNV (or other pathogens) that are highly pathogenic for the CRB-G biotype.
+\end_layout
+
+\begin_layout Enumerate
+Implement 
+\emph on
+in vivo
+\emph default
+ or 
+\emph on
+in vitro
+\emph default
+ propagation of selected OrNV isolates for auto-dissemination on islands
+ infested with CRB-G.
+\end_layout
+
+\begin_layout Standard
+Once an outbreak has been suppressed by OrNV biocontrol, it is essential
+ to preform sanitation (destruction of active or potential breeding sites)
+ to prevent local resurgence of rhino beetle populations 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bedford2014advances"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Recent progress.
+\end_layout
+
+\begin_layout Standard
+A regional CRB-G biocontrol project has not yet been established because
+ funding sources have not been identified.
+ However, a USDA-APHIS funded collaboration between the University of Guam
+ and AgResearch New Zealand has made progress on all 3 objectives:
+\end_layout
+
+\begin_layout Enumerate
+DNA samples from CRB populations collected in Asia indicate the presence
+ of the CRB-G biotype in the Philippines and Indonesia.
+\end_layout
+
+\begin_layout Enumerate
+During a UOG/AgResearch expedition to Negros Island, Philippines in January
+ 2017, about 100 DNA samples from a known CRB-G population were collected.
+\end_layout
+
+\begin_layout Enumerate
+Lab tests in at AgResearch New Zealand indicated that all sampled beetles
+ belonged to the CRB-G biotype and that one of these was infected with OrNV.
+ The OrNV from this beetle was isolated and propagated insect cell culture.
+\end_layout
+
+\begin_layout Standard
+We are hoping that this new OrNV isolate will kill CRB-G adults, to be determine
+d in bioassays to be performed on Guam.
+ We are currently waiting for APHIS to issue an import permit to allow shipment
+ of a sample of the new isolate from New Zealand to Guam.
+ If the isolate proves pathogenic for CRB-G, we will immediately start 
+\emph on
+in vivo
+\emph default
+ propagation and auto-dissemination.
+ 
+\end_layout
+
+\begin_layout Standard
+If OrNV biocontrol is successful, palm mortality will stop, the virus will
+ sustainably suppress CRB damage to tolerable levels, and risk of accidental
+ spread to other islands will be significantly reduced.
+ This scenario is based on reports of successful implementation of CRB biocontro
+l using OrNV on all Pacific Islands on which the virus was released prior
+ to discovery of the OrNV resistant biotype, CRB-G, on Guam 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bedford1986biological"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Statement of Need
+\end_layout
+
+\begin_layout Standard
+This proposal requests funds to hire a post doctoral entomologist for 2
+ years to implement effective biocontrol for CRB.
+ Technical/scientific assistance in the form of a post doc is necessary
+ because professional capacity to handle major entomological problems in
+ Micronesia is inadequate.
+ During the past 2 decades the number of PhD level entomologists practicing
+ in Micronesia decreased from 9 (5 in Guam, 3 in CNMI, 1 in Palau) to 3
+ (all in Guam).
+ During this same period the workload increased, mainly because the detection
+ rate for invasive species went up by almost an order of magnitude.
+ The three remaining PhD level entomologists in Micronesia do not have time
+ and resources to adequately respond to concurrent invasions of coconut
+ rhinoceros beetle, little fire ant, Asian cycad scale, and several major
+ agricultural pest insects.
+ Teaching and administrative responsibilities do not allow enough time to
+ be dedicated to finding solutions to the major entomological problems currently
+ impacting Micronesia.
+ The post doctoral entomologist will work under supervision of the PI within
+ an existing CRB biocontrol program funded by USDA-APHIS.
+ 
+\end_layout
+
+\begin_layout Standard
+Funding of the current proposal will enable immediate extension of benefits
+ from the Guam biocontrol project to Palau.
+ Island leaders are worried about the high risk of CRB-G spreading within
+ Micronesia.
+ A regional project with the objective of developing effect biological control
+ for CRB was identified as an urgent need by Micronesian Governors and President
+s at the 22nd Micronesian Islands Forum which took place on Guam during
+ May, 2017 (Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Extracts-from-the"
+
+\end_inset
+
+).
+ Hiring a post doc entomologist will partially address this urgent need.
+\end_layout
+
+\begin_layout Subsection
+Goals and Objectives
+\end_layout
+
+\begin_layout Standard
+The post doctoral entomologist will work on an existing project to implement
+ effective biological control for the coconut rhinoceros beetle, Guam biotype
+ (CRB-G) which is rapidly killing palm trees in Guam and Palau.
+ The overall objective of this project is establish a self-sustaining biological
+ control which will stop palm tree mortality and eventually suppress the
+ CRB to minimize damage to tolerable levels.
+ 
+\end_layout
+
+\begin_layout Standard
+Details for the following goals can be found in the approved APHIS project
+ work plan attached as Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Work-Plan-for"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Perform lab bioassay to determine pathogenicity of the new OrNV isolate
+ from Negros Island, Philippines
+\end_layout
+
+\begin_layout Standard
+If the new OrNV isolate is not pathogenic for CRB-G, further foreign exploration
+ will be necessary.
+\end_layout
+
+\begin_layout Subsubsection
+Establish an island-wide coconut palm health survey
+\end_layout
+
+\begin_layout Standard
+A semiannual health survey will be established to quantify CRB damage to
+ coconut palms on an island-wide basis.
+ This survey needs to be started prior to auto-dissemination of OrNV or
+ other control tactic is implemented so that results, in terms of reduction
+ in CRB palm damage, can be quantified.
+\end_layout
+
+\begin_layout Subsubsection
+Establish a CRB rearing facility to provide adults
+\end_layout
+
+\begin_layout Standard
+Field collected CRB will be reared in environmental rearing cabinets for
+ use in bioassays, 
+\emph on
+in vivo
+\emph default
+ propagation of OrNV and auto-dissemination.
+ One rearing cabinet has been ordered.
+ Two more will be ordered with FY17 Farm Bill funds.
+\end_layout
+
+\begin_layout Subsubsection
+Establish biological control of CRB-G by auto-dissemination of OrNV in Guam
+ and Palau
+\end_layout
+
+\begin_layout Standard
+CRB-G adults will be used to autodisemminate OrNV in Guam and Palau.
+\end_layout
+
+\begin_layout Subsection
+Timeline
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename output.svg
+	display false
+	width 100text%
+	height 100theight%
+	keepAspectRatio
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Potential Benefits
+\end_layout
+
+\begin_layout Itemize
+This project will directly benefit Guam and the Republic of Palau.
+ Both of these jurisdictions are infested with CRB-G.
+ Without implementation of effective biological control, it is likely that
+ 50% or more coconut palms will be killed by CRB-G.
+ If the OrNV biocontrol project is successful, palm mortality will be stopped
+ and the virus will sustainably suppress CRB damage to tolerable levels.
+\end_layout
+
+\begin_layout Itemize
+This project will indirectly benefit all other islands in Micronesia.
+ With very high populations of CRB-G in Guam and the Republic of Palau,
+ risk of accidental introduction to other islands is extremely high.
+ CRB-G has already been intercepted twice on Saipan, Commonwealth of the
+ Northern Mariana Islands.
+ If CRB-G infests islands and atolls where the coconut palm as the 
+\emph on
+tree of life
+\emph default
+, islanders may have to migrate to larger population centers.
+ If the OrNV biocontrol project is successful, the risk of accidental transport
+ of CRB-G to other islands will be significantly reduced.
+\end_layout
+
+\begin_layout Section
+Budget
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Item
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Details
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Cost
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Personnel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Salary
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 yrs * $60k per yr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$120,000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Benefits
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18% * Salary
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$21,600
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Travel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Relocation expenses (incoming)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$6,000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Relocation expenses (outgoing)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$5,000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Trip to Palau
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$6,298
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SUBTOTAL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$158,898
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Administrative fee
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10% of total
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$17,655
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TOTAL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$176,553
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+Salary
+\begin_inset space ~
+\end_inset
+
+and
+\begin_inset space ~
+\end_inset
+
+Benefits are for employment of a PhD.D.
+ level entomologist to work exclusively on biological control of coconut
+ rhinoceros beetle biotype G in Micronesia under supervision of the PI.
+\end_layout
+
+\begin_layout Description
+Relocation
+\begin_inset space ~
+\end_inset
+
+expenses include airfare, shipment of household items, and other associated
+ expenses such as immigration fees.
+ $1,000 is allotted for short-term hotel accommodation upon arrival.
+\end_layout
+
+\begin_layout Description
+Trip
+\begin_inset space ~
+\end_inset
+
+to
+\begin_inset space ~
+\end_inset
+
+Palau The purpose of this trip by the PI and postdoc is to perform the initial
+ release an effective isolate of OrNV in Palau for biocontrol of coconut
+ rhinoceros beetle.
+ Airfare: Guam-Palau return; 2*$769=$1538.
+ Per diem (US State Dept.
+ rate): 2*7d*$340=$4760.
+ Total trip estimate=$1538+$4760=$6,298
+\end_layout
+
+\begin_layout Description
+Administrative
+\begin_inset space ~
+\end_inset
+
+fee A fee equal to 10% of the total grant award is charged by the Research
+ Corporation of the University of Guam for services provided.
+\end_layout
+
+\begin_layout Section
+Contact Information
+\end_layout
+
+\begin_layout Subsection
+Grant Recipient
+\end_layout
+
+\begin_layout Description
+Name Dr.
+ Lee S.
+ Yudin
+\end_layout
+
+\begin_layout Description
+Title Dean / Director, College of Natural and Applied Sciences, University
+ of Guam
+\end_layout
+
+\begin_layout Description
+Address Agriculture and Life Sciences Bldg, 303 Campus Dr., University of
+ Guam, Mangilao, Guam 96923
+\end_layout
+
+\begin_layout Description
+Telephone (671) 735-2000
+\end_layout
+
+\begin_layout Description
+Email lyudin@triton.uog.edu
+\end_layout
+
+\begin_layout Subsection
+Grant Manager
+\end_layout
+
+\begin_layout Description
+Name Dr.
+ Aubrey Moore
+\end_layout
+
+\begin_layout Description
+Title Entomologist, College of Natural and Applied Sciences, University
+ of Guam
+\end_layout
+
+\begin_layout Description
+Address Agriculture and Life Sciences Bldg, 303 Campus Dr., University of
+ Guam, Mangilao, Guam 96923
+\end_layout
+
+\begin_layout Description
+Telephone (671) 686-5664
+\end_layout
+
+\begin_layout Description
+Email aubreymoore@guam.net
+\end_layout
+
+\begin_layout Subsection
+Automated Standard Application for Payments (ASAP)
+\end_layout
+
+\begin_layout Description
+ASAP
+\begin_inset space ~
+\end_inset
+
+Location
+\begin_inset space ~
+\end_inset
+
+Code 14010001
+\end_layout
+
+\begin_layout Description
+ASAP
+\begin_inset space ~
+\end_inset
+
+ID 6637846
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "references"
+options "bibtotoc,IEEEtran"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+APPENDICES
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Work-Plan-for"
+
+\end_inset
+
+Work Plan for CRB-G Biocontrol Project Funded by USDA-APHIS
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename FY17-GU-FB-CRB biocontrol workplan.pdf
+	display false
+	extra LaTeX "pages=-"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Extracts-from-the"
+
+\end_inset
+
+Extracts from the 22nd Micronesian Islands Forum Joint Communique
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename extracts from MF Joint Communique.pdf
+	display false
+	extra LaTeX "pages=-"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Cover Letter
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename cover_letter_signed.pdf
+	display false
+	extra LaTeX "pages=-"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Letters of Support
+\end_layout
+
+\begin_layout Subsection
+Regional Invasive Species Council
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename support_letters/RISC.PDF
+	display false
+	extra LaTeX "pages=-"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Republic of Palau
+\end_layout
+
+\begin_layout Standard
+To be sent separately.
+\end_layout
+
+\begin_layout Section
+Administrative Forms
+\end_layout
+
+\begin_layout Subsection
+SF-424
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename SF424_signed/SF424.pdf
+	display false
+	extra LaTeX "pages=-"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+SF-424A
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename SF424_signed/SF424A-V1.0.pdf
+	display false
+	extra LaTeX "pages=-"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+SF-424B
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename SF424_signed/SF424B.pdf
+	display false
+	extra LaTeX "pages=-"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
