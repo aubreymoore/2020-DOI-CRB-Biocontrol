@@ -1,7 +1,7 @@
 \documentclass[12pt,letterpaper,english,bibliography=totocnumbered, abstract=on]{scrartcl}
 
 \usepackage{indentfirst}
-\usepackage{appendix}
+\usepackage[titletoc]{appendix}
 %\usepackage{fullpage}
 %\usepackage{subfiles}
 \usepackage[T1]{fontenc}
@@ -29,6 +29,10 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 
 \usepackage{pdfpages}
 \usepackage{float} % Allows use of H to place floats
+
+\usepackage{pgfgantt}
+
+\usepackage{framed}
 
 % Prevent page breaks within paragraphs
 % https://tex.stackexchange.com/questions/21983/how-to-avoid-page-breaks-inside-paragraphs
@@ -275,14 +279,18 @@ Recent work at the University of Guam, supported by grants from DOI-OIA and USDA
 
 \subsection{Statement of Need}
 
-In addition to loss of coconut as ornamental plants and an emergency food supply, the uncontrolled CRB-G outbreak on Guam is a major environmental disaster rivaling that caused by the brown treesnake (BTS). BTS killed the birds in Guam's forests. CRB-G is now killing the trees. A 2002 US Forest Survey reported that the three most populous trees in Guam's forests were \textit{Cycas micronesica}, \textit{Cocos nucifera} and \textit{Heterospathe elata}  accounting for 16\%, 12\% and 11\% of total trees with a stem diameter of five inches or greater (\cite{moore_failed_2018-1}). These three species, 39\% of the trees in Guam's forests, are being attacked by CRB-G\footnote{Attack of \textit{Cycas micronesica} by CRB-G adults is a recent discovery.}. If the Guam CRB-G outbreak is not brought under control, the island's forest health  will continue to decline, accidental export of CRB-G to other islands in the American Pacific (in addition to Oahu and Rota) will be inevitable and cascading impacts from loss of forests will cause damage to other systems (erosion leading to reef fouling for example). Note that the source of the CRB-G invasion on Oahu and Rota is most probably Guam.
+This proposal is, in part, a response to an urgent need expressed by Micronesian Island leaders in the 22nd Micronesian Islands Forum Communique (Appendix \ref{sec:Extracts-from-the}):
+
+\begin{framed}
+In recognition of the urgent need for a Pacific-wide project to find an effective biological control agent for the CRB, the Leaders instructed RISC to seek financial support for such a project, to be conducted with partners at the University of Guam, the Secretariat of the Pacific Community, New Zealand, the USDA and others, as appropriate.
+\end{framed}
+
+
+In addition to loss of coconut as ornamental plants and an emergency food supply, the uncontrolled CRB-G outbreak on Guam is a major environmental disaster rivaling that caused by the brown treesnake (BTS). BTS killed the birds in Guam's forests. CRB-G is now killing the trees. A 2002 US Forest Survey reported that the three most populous trees in Guam's forests were \textit{Cycas micronesica}, \textit{Cocos nucifera} and \textit{Heterospathe elata}  accounting for 16\%, 12\% and 11\% of total trees with a stem diameter of five inches or greater (\cite{moore_failed_2018-1}). These three species, 39\% of the trees in Guam's forests, are being attacked by CRB-G\footnote{Attack of \textit{Cycas micronesica} by CRB-G adults is a recent discovery.}. If the Guam CRB-G outbreak is not brought under control, the island's forest health  will continue to decline, accidental export of CRB-G to other islands in the American Pacific (in addition to Oahu and Rota) will be inevitable and cascading impacts from loss of forests will cause damage to other systems (erosion leading to reef fouling for example).
   
 Despite the severity of the Guam CRB-G problem, the US federal government has provided relatively little support for response efforts. USDA-APHIS granted Plant Protection Act funding for CRB-G work in Hawaii and Guam for several years (\cite{moore_usda_2020}). However, a grant proposal requesting \$331,4904 for Guam from FY2020 PPA funding was unexpectedly rejected. A proposal requesting support (\$3.5M) for a cooperative CRB biocontrol project to be performed by North Carolina State University, Colorado State University and the University of Guam has been submitted to DOD's Strategic Environmental Research and Development Program (SERDP). If granted, this SERDP project will begin in the middle of 2021. Thus, \textbf{work towards mitigating the CRB-G problem on Guam during FY2020 is currently unfunded}.
 
-The immediate challenge is to procure bridge funding to retain the Guam Biological Control Project's insect pathologist, Dr. James Grasela, for an additional year so that we can begin propagation and field release of the two OrNV biological control candidates he has identified. 
-   
-
-
+The immediate challenge is to procure bridge funding to retain the Guam Biological Control Project's insect pathologist, Dr. James Grasela, for an additional year so that we can begin propagation and field release of the two OrNV biological control candidates he has identified. Specialized skills of an insect pathologist are essential to implementing successful biological control of CRB-G on Guam and elsewhere.
 
 %This proposal requests funds to hire a post doctoral entomologist
 %for 2 years to implement effective biocontrol for CRB. Technical/scientific
@@ -351,7 +359,7 @@ A web database already exists for Guam CRB trap data and it is available for use
 
 Damage symptoms such as v-shaped cuts to fronds, bore holes, and dead standing coconut palm stems are readily observed during roadside surveys. Survey data will be collected on a smart-phone dash-cam app which georeferences each image. Initially, images of coconut palm damage by CRB-G will be detected, classified and tagged by a technician. When a large number of images have been tagged, these will be used to train an object detector. This work will result in a fully automated CRB damage detection and monitoring system which generates detection alerts and damage maps. This automated system will be useful as an early detection device for CRB. Roadside surveys on Guam will be performed bimonthly and the system will also be tested on Tinian, an island just north of Guam on which CRB has never been detected.
 
-The envisioned system has already been successfully prototyped. A custom object detector for CRB damage has been trained using the TensorFlow implementation of the Faster R-CNN Deep Learning model (Moore, unpublished).
+The envisioned system has already been successfully prototyped (See Supporting Technical Data \ref{fig:royal-palms}). A custom object detector for CRB damage has been trained using the TensorFlow implementation of the Faster R-CNN Deep Learning model (Moore, unpublished).
 
 
 
@@ -412,36 +420,193 @@ The envisioned system has already been successfully prototyped. A custom object 
 
 \subsection{Timeline}
 
-\includegraphics[width=1\textwidth,height=1\textheight,keepaspectratio]{output}.
+%\begin{figure}[H]
+%	%\centering
+%	\begin{tikzpicture}
+%	\begin{ganttchart}[x unit=0.08in, 
+%	y unit chart=0.18in,
+%	group label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
+%	bar label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
+%	milestone label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
+%	bar/.append style={fill=lightgray}
+%	]{1}{48}
+%	
+%	\gantttitle{Year}{48} \\
+%	\gantttitlelist{1,...,4}{12} \\
+%	
+%	\ganttgroup{\textbf{Biocontrol}}{1}{48} \\
+%	
+%	\ganttbar{Continued screening for OrNV biocontrol candidates}{1}{12} \\\\
+%	
+%	\ganttbar{In vivo virus propagation}{1}{36} \\
+%	
+%	\ganttbar{OrNV release by autodissemination}{4}{36} \\\\
+%	
+%	\ganttbar{Sample pheromone trap catch for OrNV}{1}{48} \\\\
+%	
+%	\ganttbar{Establish of CRB-G and CRB-S lab colonies}{1}{12} \\
+%	
+%	\ganttbar{Maintain lab colonies}{13}{48} \\\\
+%	
+%	\ganttbar{Experiments to compare CRB-G and CRB-S}{13}{24} \\\\
+%	
+%	\ganttmilestone{Decide which OrNV isolate(s) to release}{1} \\
+%	
+%	\ganttmilestone{Initiate OrNV release}{4} \\\\
+%	
+%	\ganttmilestone{Review choice of OrNV isolate(s) for release}{13} \\	
+%	\ganttmilestone{Annual reports}{13}
+%	\ganttmilestone{}{25}
+%	\ganttmilestone{}{36}
+%	\ganttmilestone{}{48}
+%	\\
+%	\\
+%	
+%	\ganttgroup{\textbf{Pheromone trap and video surveys}}{1}{48} \\
+%	\ganttbar{Pre-release surveys}{1}{3} \\
+%	\ganttbar{Post-release surveys}{4}{48} \\
+%	\ganttmilestone{Quarterly survey reports}{4}
+%	\ganttmilestone{}{7}
+%	\ganttmilestone{}{10}
+%	\ganttmilestone{}{13}
+%	\ganttmilestone{}{16}
+%	\ganttmilestone{}{19}
+%	\ganttmilestone{}{22}
+%	\ganttmilestone{}{25}
+%	\ganttmilestone{}{28}
+%	\ganttmilestone{}{31}
+%	\ganttmilestone{}{34}
+%	\ganttmilestone{}{37}
+%	\ganttmilestone{}{40}
+%	\ganttmilestone{}{43}
+%	\ganttmilestone{}{46} 
+%	\\
+%	\\
+%	
+%	\ganttgroup{\textbf{Pacific-wide coordination and collaboration}}{1}{48} 
+%	\\
+%	
+%	\ganttmilestone{Quarterly teleconferences}{3}
+%	\ganttmilestone{}{6}
+%	\ganttmilestone{}{9}
+%	\ganttmilestone{}{12}
+%	\ganttmilestone{}{15}
+%	\ganttmilestone{}{18}
+%	\ganttmilestone{}{21}
+%	\ganttmilestone{}{24}
+%	\ganttmilestone{}{27}
+%	\ganttmilestone{}{30}
+%	\ganttmilestone{}{33}
+%	\ganttmilestone{}{36}
+%	\ganttmilestone{}{39}
+%	\ganttmilestone{}{42}
+%	\ganttmilestone{}{45}
+%	\ganttmilestone{}{48} 
+%	\\
+%	
+%	\ganttmilestone{Annual conferences}{7}
+%	\ganttmilestone{}{19}
+%	\ganttmilestone{}{31}
+%	\ganttmilestone{}{43} 
+%	\\
+%	\\
+%	
+%	\ganttgroup{\textbf{SERDP}}{1}{48} 
+%	\\
+%	
+%	\ganttmilestone{Annual progress reports}{14}
+%	\ganttmilestone{}{28}
+%	\ganttmilestone{}{40} 
+%	\\
+%	
+%	\ganttmilestone{Annual technical meetings}{11} 
+%	\ganttmilestone{}{23}
+%	\ganttmilestone{}{35}
+%	\ganttmilestone{}{47}
+%	\\
+%	
+%	\ganttmilestone{Final report}{48}
+%	
+%	\ganttlink{elem2}{elem3}
+%	\ganttlink{elem5}{elem6}
+%	\ganttlink{elem6}{elem7}
+%	\ganttlink{elem16}{elem17}
+%	
+%	\end{ganttchart}	
+%	\end{tikzpicture}
+%	%\caption{Project schedule.} 
+%	%\label{fig:gantt}
+%\end{figure}
 
+\begin{ganttchart}[]{1}{12}
+	\gantttitle{Month}{12} \\
+	\gantttitlelist{1,...,12}{1} \\
+	\ganttgroup{Biological Control}{1}{12} \\
+%	\ganttbar{Task 1}{1}{2} \\
+%	\ganttlinkedbar{Task 2}{3}{7} 
+%	\ganttnewline
+%	\ganttmilestone{Milestone}{7} \\
+%	\ganttnewline
+%	\ganttbar{Final Task}{8}{12} \\
+%	\ganttlink{elem2}{elem3}
+%	\ganttlink{elem3}{elem4}
+	
+	\ganttbar{Prerelease OrNV survey}{1}{2}\\
+	\ganttbar{\textit{In vitro} OrNV propagation}{3}{11}\\
+	
+	\ganttbar{Autodissemination of OrNV}{3}{11}\\
+	
+	\ganttgroup{Pheromone traps}{1}{12} \\
+	\ganttbar{Deploy traps}{1}{1}\\
+	\ganttbar{Check/maintain traps (biweekly)}{2}{12}\\
+	
+	
+	\ganttgroup{Roadside video surveys of CRB damage}{1}{12} \\
+	\ganttmilestone{Roadside surveys (bimonthly)}{1}
+	\ganttmilestone{}{3}
+	\ganttmilestone{}{5}
+	\ganttmilestone{}{7}
+	\ganttmilestone{}{9}
+	\ganttmilestone{}{11} \\
+	\ganttbar{Object detector training}{1}{3}\\
+	\ganttbar{Automated video analysis}{4}{12}\\
+	
+		
+	\ganttgroup{Reporting}{1}{12} \\
+	\ganttmilestone{Trapping and damage survey reports and maps}{2}
+	\ganttmilestone{}{4}
+	\ganttmilestone{}{6}
+	\ganttmilestone{}{8}
+	\ganttmilestone{}{10}
+	\ganttmilestone{}{12} \\
+						
+	\ganttmilestone{Semiannual report}{7} \\
+	\ganttmilestone{Final report}{12}
+\end{ganttchart}
+
+%\includegraphics[width=1\textwidth,height=1\textheight,keepaspectratio]{output}.
+\newpage
 \subsection{Potential Benefits}
 \begin{itemize}
-\item This project will directly benefit Guam and the Republic of Palau.
-Both of these jurisdictions are infested with CRB-G. Without implementation
+\item This project will directly benefit Guam.
+Without implementation
 of effective biological control, it is likely that 50\% or more coconut
-palms will be killed by CRB-G.
-\item This project will indirectly benefit all other islands in Micronesia.
-With very high populations of CRB-G in Gaum and the Republic of Palau,
+palms will be killed by CRB-G. In addition to loss of coconut as ornamental plants and an emergency food supply, the uncontrolled CRB-G outbreak on Guam is a major environmental disaster with 39\% the trees in Guam's forests are at risk of attack by CRB-G. If the outbreak is not brought under control, the island's forest health  will continue to decline, accidental export of CRB-G to other islands in the American Pacific (in addition to Oahu and Rota) will be inevitable and cascading impacts from loss of forests will cause damage to other systems (erosion leading to reef fouling for example).
+
+\item This project will indirectly benefit all other islands in Micronesia and other areas of the Pacific.
+With very high populations of CRB-G in Gaum
 risk of accidental introduction to other islands is extremely high.
-CRB-G has already been intercepted twice on Saipan, Commonwealth of
-the Northern Mariana Islands. If CRB-G infests islands and atolls
+CRB-G has already been intercepted twice on Saipan, it is established on Rota and it has been detected on Aguiguan. If CRB-G infests smaller islands and atolls in the FSM and RMI
 where the coconut palm as the \emph{tree of life}, islanders may have
-to migrate to larger population centers.
-\item Foreign exploration leading to discovery of a highly pathogenic strain
-of OrNV or other microbial biocontrol agent for CRB-Guam could lead
-to implementation of self sustaining population suppression and tolerable
-damage levels on Guam and other islands invaded by CRB-G. 
-\item Loss of 50\% or more of Guam's palms may be prevented if an effective
-biocontrol agent is found and released quickly. 
-\item Reduction in CRB population levels on Guam will reduce the risk of
-accidental of the highly invasive CRB-Guam biotype to other Pacifc
-islands and elsewhere. 
-\item Development of image analysis methods may lead to a small, inexpensive,
-automated CRB damage detector which could be mounted on a drone or
-a conventional vehicle. This device could be used for early detection
-or monitoring of CRB damage.
+to migrate to larger population centers. If funded, the proposed project will be run under the \textit{Open Science} concept. All data and analyses will be publicly shared on the internet in near-real time and samples of biocontrol candidates will be also be shared other Pacific islands battling CRB-G. 
+
+\item It is expected that establishment of OrNV as an effective biological control agent will provide permanent self-sustaining population suppression of CRB-G. This is in contrast to temporary results from invasive species control programs which rely on population suppression using pesticide application, trapping or physical removal.
+
+\item Technology developed for automated roadside video surveys may be used for early detection of CRB on islands on which this pest has not yet been detected. Roadside videos may be of use for monitoring spread of invasive weeds such as Mexican creeper, \textit{Antigonon leptopus\textit}.
+
 \end{itemize}
 
+\newpage
 \section{Budget}
 
 \begin{center}
@@ -485,8 +650,7 @@ services provided.
 %\phantomsection\addcontentsline{toc}{section}{\refname}\bibliography{references}
 
 \newpage{}
-
-\appendix
+\begin{appendices}
 
 \section{Supporting Technical Data}
 
@@ -517,46 +681,46 @@ Result of a first attempt to train an object detector (Faster R-CNN) to locate c
 
 \clearpage
 
-
-
-\section{USDA-APHIS 2020 Plant Protection Act Proposal (UNFUNDED)}
-Please see next page.
-\includepdf[pages=-]{2020-PPA/Moore-FY20-PPA}
+%\section{USDA-APHIS 2020 Plant Protection Act Proposal (UNFUNDED)}
+%Please see next page.
+%\includepdf[pages=-]{2020-PPA/Moore-FY20-PPA}
 
 \section{DOI-OIA Grant D17AP00107 Progress Report 4}
 \label{section report4}
 Please see next page.
 \includepdf[pages=-]{report4/report4.pdf}
 
-\section{\label{sec:Work-Plan-for}Work Plan for CRB-G Biocontrol Project
-Funded by USDA-APHIS}
-
-\includepdf[pages=-]{\string"FY17-GU-FB-CRB biocontrol workplan\string"}
+%\section{\label{sec:Work-Plan-for}Work Plan for CRB-G Biocontrol Project
+%Funded by USDA-APHIS}
+%\includepdf[pages=-]{\string"FY17-GU-FB-CRB biocontrol workplan\string"}
 
 \section{\label{sec:Extracts-from-the}Extracts from the 22nd Micronesian
 Islands Forum Joint Communique}
-
 \includepdf[pages=-]{\string"extracts from MF Joint Communique\string"}
 
 \section{Letters of Support}
 
-\subsection{Regional Invasive Species Council}
+\subsection{Guam Governor's Office}
+To be included when received.
 
-\includepdf[pages=-]{support_letters/RISC.PDF}
+\subsection{Guam Invasive Species Council}
+To be included  when received.
 
-\subsection{Republic of Palau}
+\subsection{Micronesia Regional Invasive Species Council}
+%\includepdf[pages=-]{support_letters/RISC.PDF}
+To be included  when received.
 
-\section{Administrative Forms}
+%\section{Administrative Forms}
+%
+%\subsection{SF-424}
+%\includepdf[pages=-]{SF424_signed/SF424}
+%
+%\subsection{SF-424A}
+%\includepdf[pages=-]{SF424_signed/SF424A}
+%
+%\subsection{SF-424B}
+%\includepdf[pages=-]{SF424_signed/SF424B}
 
-\subsection{SF-424}
+\end{appendices}
 
-\includepdf[pages=-]{SF424_signed/SF424}
-
-\subsection{SF-424A}
-
-\includepdf[pages=-]{SF424_signed/SF424A}
-
-\subsection{SF-424B}
-
-\includepdf[pages=-]{SF424_signed/SF424B}
 \end{document}
