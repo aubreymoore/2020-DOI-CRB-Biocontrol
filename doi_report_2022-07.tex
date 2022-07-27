@@ -54,7 +54,7 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 
 \begin{description}
 	\item[Federal ID] D20AP00060
-	\item[Reporting period] xxx through xxx
+	\item[Reporting period] 2022-01-01 through 2022-06-30
 \end{description}
 
 
@@ -89,6 +89,8 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 CRB adults collected from breeding sites and pheromone traps throughout Guam will be tested for presence of OrNV using PCR.  Laboratory bioassays will be performed on OrNV isolated from these beetles to evaluate potential for biological control.
 \end{framed} 
 
+\subsection{Previously reported progress}
+
 Our lab currently uses CRB-G adults collected from pheromone traps as test animals in bioassays to evaluate OrNV isolates as biocontrol agents under the assumption that the Guam beetle population contains only the CRB-G biotype and is free from OrNV infection. In 2019 we gained the capacity to perform PCR in our lab and began testing these assumptions. PCR results indicated that untreated, field-collected beetles, used as experimental controls in our bioassays, were all CRB-G, but 18\% of these tested positive for OrNV \cite{grasela_technical_2020, graselaTechnicalReportPolymerase2020, graselaTechnicalReportPolymerase2020a}.
 
 Based on these results, the PI decided to suspend bioassays until we had conclusive evidence of OrNV infection in the Guam CRB-G population.  This decision was made for two reasons:
@@ -106,10 +108,15 @@ We concluded that previous OrNV positive tests were the result of lab contaminat
 
 Current evidence suggests that all CRB on Guam belong to the CRB-G biotype and there is no OrNV infection within this population. In other words, the background OrNV incidence is zero.
 
+\subsection{Recent progress}
+
 \clearpage
 \section{Objective 2: Establish Sustainable CRB-G Biocontrol by Autodissemination of OrNV}
 
 \begin{framed}
+	
+\subsection{Previously reported progress}
+	
 OrNV biocontrol candidates will be propagated \textit{in vivo} using established methods \cite{huger_oryctes_2005-1} and released into the Guam CRB-G population by autodissemination. Autodissemination involves infecting healthy CRB adults with OrNV. These infected beetles are then released at points dispersed throughout the island where they vector disease to conspecifics. A permit for field release of OrNV on Guam has already been obtained from USDA-APHIS. All released beetles will be marked by etching unique numbers on their elytra using a computer-controlled laser engraving system system already in use for this application at UOG.
 
 Beetles for \textit{in vivo} propagation of OrNV and autodissemination will be field-collected from breeding sites and pheromone traps because this is far more efficient than rearing beetles in the lab at the current time. Impact of virus releases will be monitored using pheromone traps and a novel roadside video analysis system (see Objective \ref{monitoring}). A subset of beetles captured in traps will be used to estimate the virus infection rate. Concurrent with virus releases, we will continue to screen OrNV isolates to find candidate biocontrol agents.
@@ -122,6 +129,9 @@ We have not made progress on this objective for two reasons:
 \end{enumerate}
 
 We are currently reviewing our lab methods before resuming laboratory bioassays of OrNV isolates. We are considering changes to minimize OrNV contamination of samples in the bioassays and re-establishment of a CRB rearing program to provide high-quality test insects instead of relying on field-collected beetles.
+
+\subsection{Recent progress}
+
 
 \clearpage
 \section{Objective 3:  Establish Island-wide Monitoring Systems for CRB and Coconut Palm Health}
@@ -139,25 +149,30 @@ We plan to installed 150 CRB pheromone monitoring traps. These will be baited wi
 A web database already exists for Guam CRB trap data and it is available for use by this project (URL: \url{https://mysql.guaminsects.net}; database: \textbf{oryctes}; user: \textbf{readonlyguest}; password: \textbf{readonlypassword}; main tables: \textbf{trap} (2,265 records) and \textbf{trap\_visit} (89,114 records)).
 \end{framed}
 
+\subsubsection{Previously reported progress}
+
 We have not deployed new pheromone traps. But we continue to maintain trap lines in central Guam, at the Leo Palace Resort, and in northern Guam, at the University of Guam Agricultural Station in Yigo.
+
+\subsubsection{Recent progress}
 
 \clearpage
 \subsection{Objective 3b: Roadside Video Surveys}
 
 \begin{framed}
-	from DOI.
-	
 Damage symptoms such as v-shaped cuts to fronds, bore holes, and dead standing coconut palm stems are readily observed during roadside surveys. Survey data will be collected on a smart-phone dash-cam app which georeferences each image. Initially, images of coconut palm damage by CRB-G will be detected, classified and tagged by a technician. When a large number of images have been tagged, these will be used to train an object detector. This work will result in a fully automated CRB damage detection and monitoring system which generates detection alerts and damage maps. This automated system will be useful as an early detection device for CRB. Roadside surveys on Guam will be performed bimonthly and the system will also be tested on Tinian, an island just north of Guam on which CRB has never been detected.
 
 The envisioned system has already been successfully prototyped. A custom object detector for CRB damage has been trained using the TensorFlow implementation of the Faster R-CNN Deep Learning model (Moore, unpublished).
 \end{framed}
+
+\subsubsection{Previously reported progress}
 
 Bimonthly automated roadside video surveys for CRB damage are now operational on Guam and the system has been tested on Rota. Videos recorded with a smart phone attached to a vehicle are analyzed using custom-designed artificial intelligence software which recognizes coconut palms and measures CRB damage. A nontechnical description of the survey method is given in the next section.
 
 A presentation on this new CRB survey methodology was made at the December 9 2020 meeting of the CRB-G Action Group conducted as a Zoom webinar. Videos of all presentations at this meeting are available online \cite{mooreVideoRecordingCRBG2020}.
 
 \clearpage
-\subsubsection{Guam Roadside Video Survey 1}
+\paragraph{Guam Roadside Video Survey 1}
+
 
 The following four images were extracted from a draft of the University of Guam's Western Pacific Tropical Research Center impact report for 2020. They provide a nontechnical overview of the new automated roadside video survey for CRB damage and results from the first Guam survey in October, 2020.
 
@@ -190,9 +205,9 @@ The following four images were extracted from a draft of the University of Guam'
 \end{figure}
 
 \clearpage
-\subsubsection{Guam Roadside Video Survey 2}
+\paragraph{Guam Roadside Video Survey 2}
 
-The proportion of coconut palms damaged by CRB increased signicantly from 19.2\% in
+The proportion of coconut palms damaged by CRB increased significantly from 19.2\% in
 October 2020 to 21.5\% in December 2020 (p < 0.001; Fisher's exact test).
 
 \begin{figure}[h]
@@ -205,7 +220,7 @@ October 2020 to 21.5\% in December 2020 (p < 0.001; Fisher's exact test).
 
 
 \clearpage
-\subsubsection{Rota Roadside Video Survey 1}
+\paragraph{Rota Roadside Video Survey 1}
 
 Rota was invaded by CRB in 2017 and eradication efforts by Rota Department of Land and Natural Resources have successfully kept the population at a very low level, although the population has begun to spread to new areas of the island. In October 2020, a smart phone and associated equipment was sent to Rota-DLNR so that they could do an initial roadside video survey in support of their CRB control efforts. In addition to the equipment, a survey setup guide and  \cite{aubreymooreSetAutomatedRoadside2020} and a setup video \cite{mooreYouTubeVideoMounting2020} were prepared and sent.
  
@@ -218,6 +233,9 @@ The survey was performed by Mark Mangolana, Rota-DLNR and the phone containing v
 	\caption{Screenshot of an iNaturalist observation documenting probable coconut rhinoceros beetle damage detected during a roadside video survey performed by Rota DLNR. \url{https://www.inaturalist.org/observations/69534809}.}
 	\label{fig:rota-inat-obs}
 \end{figure}
+
+\subsubsection{Recent progress}
+
 
 \printbibliography
 
