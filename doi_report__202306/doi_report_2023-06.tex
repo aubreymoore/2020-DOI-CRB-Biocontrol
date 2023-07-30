@@ -5,7 +5,7 @@
 %\usepackage{fullpage}
 %\usepackage{subfiles}
 \usepackage[T1]{fontenc}
-\usepackage[latin9]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{color}
 \usepackage{babel}
 \usepackage{verbatim}
@@ -25,6 +25,7 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 
 \usepackage[backend=biber, sorting=none]{biblatex}
 \addbibresource{CRB.bib}
+\addbibresource{misc.bib}
 
 \usepackage{pdfpages}
 \usepackage{float} % Allows use of H to place floats
@@ -58,8 +59,8 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 \end{description}
 
 
-\begin{footnotesize}	
-	\url{https://github.com/aubreymoore/2020-DOI-CRB-Biocontrol/raw/master/doi_report__202212/doi_report_2022-12.pdf}
+\begin{footnotesize}
+	\url{https://github.com/aubreymoore/2020-DOI-CRB-Biocontrol/raw/master/doi_report__202306/doi_report_2023-06.pdf}
 \end{footnotesize}
 
 \clearpage
@@ -188,6 +189,12 @@ If the V23B isolate significantly reduces fecundity, we will use the results as 
 
 Our rearing facility is now starting to produce adults and bioassays will begin soon.
 
+\subsection{Recent Progress}
+
+During the first part of 2023 we tested OrNV isolates from Palau. The first bioassay tested OrNV delivered in CRB gut tissue provided by Dr. Chris Kitalong of the Palau Community College. And the second bioassay tested purified by Dr. Madoka Nakai of the Tokyo University of Agriculture and Technology. In both cases we observed no significant responses in terms of mortality, feeding activity, flight activity, or reduction in reproductive potential \cite{mooreTestingPalauGut2022}, \cite{moorePalaugutsexperiment2022}, \cite{mooreFlightTest2023}, \cite{mooreGitHubRepositoryCrbflighttest2023}. Work on both bioassays was done with the assistance of Mayuho Yamauchi, a PhD candidate from Dr. Nakai's lab who visited UOG for one month \cite{hansonUOGTokyoUniversity2023}.
+
+My lab is currently testing 4 OrNV isolates sourced from AgResearch New Zealand. These were originally collected in the Philippines.
+
 \clearpage
 
 \section{Objective 3:  Establish Island-wide Monitoring Systems for CRB and Coconut Palm Health}
@@ -307,14 +314,6 @@ In addition to using our methods for routine monitoring of CRB damage, they can 
 
 Software tools developed for our automated roadside damage monitoring can be used to detect CRB damage in digital images from any source. Recently, an object detector which we trained to find characteristic v-shaped cuts caused by CRB to examine web images was used to find evidence for an unconfirmed report of CRB establishment in Mexico \cite{jacksonSocialMediaPosts2022}. We were successful (Fig.  \ref{fig:crb-mexico}).
 
-%![](web-screenshot.png)
-%
-%**Figure 1** Screen capture of an online interactive map of coconut rhinoceros beetle damage on Guam. <https://aubreymoore.github.io/Guam-CRB-Damage-Map-2021-08/webmap>
-%
-%![](timeline.pdf)
-%
-%**Figure 2** Changes in CRB damage over time.
-
 % TODO: \usepackage{graphicx} required
 \begin{figure}[H]
 	\centering
@@ -336,6 +335,80 @@ Software tools developed for our automated roadside damage monitoring can be use
 	\caption{Coconut palm in Mexico with CRB damage symptoms. This image was selected by an automated search of web images using an object detector developed for CRB damage monitoring on Guam. Image source: \url{https://www.inaturalist.org/observations/76810823}.}
 	\label{fig:crb-mexico}
 \end{figure}
+
+
+\subsubsection{Recent progress}
+
+To date, we have completed eight island-wide surveys and data for a ninth survey were recorded in June 2023 but have not yet been analyzed. Interactive damage maps and data are available on the web: 
+
+\begin{enumerate}
+	
+	\item Survey completed 2020-10-22: 
+	\href{(https://aubreymoore.github.io/new-crb-damage-map}{View map} | \href{https://github.com/aubreymoore/new-crb-damage-map}{View GitHub repository} | \href{https://github.com/aubreymoore/new-crb-damage-map/raw/main/original-map/Guam01.db}{Download database}
+	
+	\item Survey completed 2020-12-24:
+	\href{https://aubreymoore.github.io/Guam-CRB-damage-map-2020-12/webmap/v1}{View map} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-damage-map-2020-12)}{View GitHub repository} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-damage-map-2020-12/raw/main/Guam02.db}{Download database}
+	
+	\item Survey completed 2021-03-18: 
+	\href{https://aubreymoore.github.io/Guam-CRB-Damage-Map-2021-03}{View map} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-damage-map-2021-03}{View GitHub repository} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-Damage-Map-2021-03/blob/main/Guam03.zip}{Download database}
+	
+	\item Survey completed 2021-05-20: 
+	\href{https://aubreymoore.github.io/Guam-CRB-Damage-Map-2021-05/webmap}{View map} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-Damage-Map-2021-05}{View GitHub repository} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-Damage-Map-2021-05/raw/main/Guam04.db}{Download database}
+	
+	\item Survey completed 2021-09-03: 
+	\href{https://aubreymoore.github.io/Guam-CRB-Damage-Map-20021-09/webmap}{View map} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-Damage-Map-20021-09}{View GitHub repository} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-Damage-Map-20021-09/raw/main/crb-damage-2021-09.db}{Download database}
+	
+	\item Survey completed 2022-02-23: 
+	\href{https://aubreymoore.github.io/Guam-CRB-Damage-Map-2022-02/webmap/#11/13.4483/144.7860}{View map} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-Damage-Map-2022-02}{View GitHub repository} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-Damage-Map-2022-02/raw/main/Guam-CRB-Damage-Map-2022-02.db}{Download database}
+	
+	\item Survey completed 2022-11-28: 
+	\href{https://aubreymoore.github.io/Guam-CRB-Damage-Map-2022-11/webmap/#11/13.4483/144.7860}{View map} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-Damage-Map-2022-11}{View GitHub repository} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-Damage-Map-2022-11/raw/main/output/Guam07.db}{Download database}
+	
+	\item Survey completed 2023-04-07:  
+	\href{https://aubreymoore.github.io/Guam-CRB-Damage-Map-2023-04/webmap/#11/13.4483/144.7860}{View map} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-Damage-Map-2023-04}{View GitHub repository} | 
+	\href{https://github.com/aubreymoore/Guam-CRB-Damage-Map-2023-04/raw/main/output/results.db}{Download database}
+	
+	\item Survey completed 2023-06-15: Not yet analyzed.
+	
+\end{enumerate}
+
+Results of surveys are made available to the Guam public via press releases \cite{moorePressRelease2023}. Survey results show that one in five (20\%) of Guam's coconut palms growing along roadsides are damaged by CRB (Fig. \ref{fig:timeline}).
+
+% TODO: \usepackage{graphicx} required
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{../images/timeline}
+	\caption{Percent of coconut palms growing along Guam's roadsides which show visible damage from coconut rhinoceros beetle.}
+	\label{fig:timeline}
+\end{figure}
+
+\section{Recent Publications}
+
+model
+
+PIDL
+
+%![](web-screenshot.png)
+%
+%**Figure 1** Screen capture of an online interactive map of coconut rhinoceros beetle damage on Guam. <https://aubreymoore.github.io/Guam-CRB-Damage-Map-2021-08/webmap>
+%
+%![](timeline.pdf)
+%
+%**Figure 2** Changes in CRB damage over time.
+
 
 \newpage
 
